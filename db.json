@@ -13,16 +13,6 @@
                 "name": "Private" ,
                 "meeting_count": [
                   {
-                    "id": 1, 
-                    "description":"Jumlah Meeting 2 Durasi Belajar max 0.5 (bulan)",
-                    "price": "5.000.000"
-                  },
-                  {
-                    "id": 2, 
-                    "description":"Jumlah Meeting 2 Durasi Belajar max 0.5 (bulan)",
-                    "price": "2.000.000"
-                  },
-                  {
                     "id": 3, 
                     "description":"Jumlah Meeting 2 Durasi Belajar max 0.5 (bulan)",
                     "price": "1.000.000"
