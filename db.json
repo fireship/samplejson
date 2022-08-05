@@ -1,0 +1,438 @@
+{
+  "users": [
+    {
+      "name": "Sobhan name",
+      "username": "Sobhan",
+      "email": "sobhan@yahoo.com",
+      "phone": "9893548125",
+      "companiesId": "1",
+      "id": 1
+    },
+    {
+      "name": "Sobhan name",
+      "username": "Sobhan",
+      "email": "sobhan@yahoo.com",
+      "phone": "9893548125",
+      "companiesId": "1",
+      "id": 2
+    }
+    
+    ],  "companies": [
+    {
+      "id": 1,
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net"
+     }
+  ],  
+  "courses_category": {"data":[
+    {
+      "name": "Bahasa Inggris Bisnis",
+      "course_program":{
+        "id": 1,
+        "name": "Business English",
+        "description": "description for bisnis english",
+        "class_type": {
+          "id": 1,
+          "name": "Private 2-5",
+          "descritipon": "description private for 3-5",
+          "meeting_agenda": [
+            {
+              "scheduled":[
+                {
+                  "date": "2022-08-01",
+                  "time": "15:40",
+                  "duration": "90",
+                  "status": "scheduled"
+                },
+                {
+                  "date": "2022-08-14",
+                  "time": "15:40",
+                  "duration": "90",
+                  "status": "scheduled"
+                },
+                {
+                  "date": "2022-08-25",
+                  "time": "15:40",
+                  "duration": "90",
+                  "status": "scheduled"
+                }
+              ]
+            },
+            {
+              "ongoing":[
+                {
+                  "date": "2022-08-25",
+                  "time": "15:40",
+                  "duration": "90",
+                  "status": "ongoing"
+                }
+              ]
+            },
+            {
+              "complete":
+              [
+                {
+                  "date": "2022-06-01",
+                  "time": "15:40",
+                  "duration": "90",
+                  "status": "complete"
+                },
+                {
+                  "date": "2022-06-14",
+                  "time": "15:40",
+                  "duration": "90",
+                  "status": "complete"
+                },
+                {
+                  "date": "2022-06-25",
+                  "time": "15:40",
+                  "duration": "90",
+                  "status": "complete"
+                }
+              ]
+            },
+            {
+              "canceled":[
+                {
+                  "date": "2022-05-25",
+                  "time": "15:40",
+                  "duration": "90",
+                  "status": "canceled"
+                },
+                {
+                  "date": "2022-05-25",
+                  "time": "15:40",
+                  "duration": "90",
+                  "status": "canceled"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }, 
+    {
+      "name": "Class Bisnis Talking Talking",
+      "class_category":{
+        "id": 1,
+        "name": "Bahasa Inggris Bisnis",
+        "description": "description for bisnis english",
+        "class_type": {
+          "id": 1,
+          "name": "Private",
+          "descritipon": "description private for 3-5",
+          "meeting_agenda": [
+            {
+              "scheduled":[
+                {
+                  "date": "2022-08-01",
+                  "time": "15:40",
+                  "duration": "90",
+                  "status": "scheduled"
+                },
+                {
+                  "date": "2022-08-14",
+                  "time": "15:40",
+                  "duration": "90",
+                  "status": "scheduled"
+                },
+                {
+                  "date": "2022-08-25",
+                  "time": "15:40",
+                  "duration": "90",
+                  "status": "scheduled"
+                }
+              ]
+            },
+            {
+              "ongoing":[
+                {
+                  "date": "2022-08-25",
+                  "time": "15:40",
+                  "duration": "90",
+                  "status": "ongoing"
+                }
+              ]
+            },
+            {
+              "complete":
+              [
+                {
+                  "date": "2022-06-01",
+                  "time": "15:40",
+                  "duration": "90",
+                  "status": "complete"
+                },
+                {
+                  "date": "2022-06-14",
+                  "time": "15:40",
+                  "duration": "90",
+                  "status": "complete"
+                },
+                {
+                  "date": "2022-06-25",
+                  "time": "15:40",
+                  "duration": "90",
+                  "status": "complete"
+                }
+              ]
+            },
+            {
+              "canceled":[
+                {
+                  "date": "2022-05-25",
+                  "time": "15:40",
+                  "duration": "90",
+                  "status": "canceled"
+                },
+                {
+                  "date": "2022-05-25",
+                  "time": "15:40",
+                  "duration": "90",
+                  "status": "canceled"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]},
+  "myclass": [
+    {
+        "id": 2,
+        "name": "Bhasa Inggris Bisnis",
+        "class_code": "R-02",
+        "course_category": {
+            "id": 2,
+            "name": "Business English",
+            "description": null,
+            "language": {
+                "name": "Inggris dong",
+                "code": "EN",
+                "image": "http://localhost/storage/language/2/62d129ae2b992.jpg"
+            }
+        },
+        "course_type": {
+            "id": 1,
+            "name": "Private 3-5 Orang",
+            "minimum_student": 2,
+            "maximum_student": 100
+        },
+        "agenda": []
+    },
+    {
+        "id": 3,
+        "name": "b inggris",
+        "class_code": "R-03",
+        "course_category": {
+            "id": 2,
+            "name": "test2",
+            "description": null,
+            "language": {
+                "name": "Inggris dong",
+                "code": "EN",
+                "image": "http://localhost/storage/language/2/62d129ae2b992.jpg"
+            }
+        },
+        "course_type": {
+            "id": 1,
+            "name": "Test",
+            "minimum_student": 2,
+            "maximum_student": 100
+        },
+        "agenda": []
+    },
+    {
+        "id": 4,
+        "name": "b inggris",
+        "class_code": "R-04",
+        "course_category": {
+            "id": 2,
+            "name": "test2",
+            "description": null,
+            "language": {
+                "name": "Inggris dong",
+                "code": "EN",
+                "image": "http://localhost/storage/language/2/62d129ae2b992.jpg"
+            }
+        },
+        "course_type": {
+            "id": 1,
+            "name": "Test",
+            "minimum_student": 2,
+            "maximum_student": 100
+        },
+        "agenda": []
+    },
+    {
+        "id": 5,
+        "name": "b inggris",
+        "class_code": "a",
+        "course_category": {
+            "id": 2,
+            "name": "test2",
+            "description": null,
+            "language": {
+                "name": "Inggris dong",
+                "code": "EN",
+                "image": "http://localhost/storage/language/2/62d129ae2b992.jpg"
+            }
+        },
+        "course_type": {
+            "id": 1,
+            "name": "Test",
+            "minimum_student": 2,
+            "maximum_student": 100
+        },
+        "agenda": []
+    },
+    {
+        "id": 6,
+        "name": "b inggris",
+        "class_code": "111",
+        "course_category": {
+            "id": 2,
+            "name": "test2",
+            "description": null,
+            "language": {
+                "name": "Inggris dong",
+                "code": "EN",
+                "image": "http://localhost/storage/language/2/62d129ae2b992.jpg"
+            }
+        },
+        "course_type": {
+            "id": 1,
+            "name": "Test",
+            "minimum_student": 2,
+            "maximum_student": 100
+        },
+        "agenda": [
+            {
+                "scheduled_at": "1659338051602",
+                "venue": "Google Meet",
+                "type": "main",
+                "meeting_type": "online",
+                "status": "scheduled",
+                "duration": 120
+            }
+        ]
+    }
+],
+
+  "register_class":{
+    "data" : [
+      {
+        "name": "Bahasa Inggris Bisnis",
+        "types": [
+          {
+            "id": 1,
+            "name": "Bisnis English",
+            "cource_types": [
+              {
+                "id": 1,
+                "name": "Private" ,
+                "meeting_count": [
+                  {
+                    "id": 1, 
+                    "description":"Jumlah Meeting 2 Durasi Belajar max 0.5 (bulan)",
+                    "price": "5.000.000"
+                  },
+                  {
+                    "id": 2, 
+                    "description":"Jumlah Meeting 2 Durasi Belajar max 0.5 (bulan)",
+                    "price": "2.000.000"
+                  },
+                  {
+                    "id": 3, 
+                    "description":"Jumlah Meeting 2 Durasi Belajar max 0.5 (bulan)",
+                    "price": "1.000.000"
+                  }
+                ]
+              },
+              {
+                "id": 1,
+                "name": "Semi Private Berdua" 
+              },
+              {
+                "id": 1,
+                "name": "Semi Private Berdua (3-5)" 
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "name": "Bisnis Writing",
+            "cource_types": [
+              {
+                "id": 1,
+                "name": "Private" ,
+                "meeting_count": [
+                  {
+                    "id": 1, 
+                    "description":"Jumlah Meeting 2 Durasi Belajar max 0.5 (bulan)",
+                    "price": "5.000.000"
+                  },
+                  {
+                    "id": 2, 
+                    "description":"Jumlah Meeting 2 Durasi Belajar max 0.5 (bulan)",
+                    "price": "2.000.000"
+                  },
+                  {
+                    "id": 3, 
+                    "description":"Jumlah Meeting 2 Durasi Belajar max 0.5 (bulan)",
+                    "price": "1.000.000"
+                  }
+                ]
+              },
+              {
+                "id": 1,
+                "name": "Semi Private Berdua" 
+              },
+              {
+                "id": 1,
+                "name": "Semi Private Berdua (3-5)" 
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "name": "Bisnis Conversation",
+            "cource_types": [
+              {
+                "id": 1,
+                "name": "Private" ,
+                "meeting_count": [
+                  {
+                    "id": 1, 
+                    "description":"Jumlah Meeting 2 Durasi Belajar max 0.5 (bulan)",
+                    "price": "5.000.000"
+                  },
+                  {
+                    "id": 2, 
+                    "description":"Jumlah Meeting 2 Durasi Belajar max 0.5 (bulan)",
+                    "price": "2.000.000"
+                  },
+                  {
+                    "id": 3, 
+                    "description":"Jumlah Meeting 2 Durasi Belajar max 0.5 (bulan)",
+                    "price": "1.000.000"
+                  }
+                ]
+              },
+              {
+                "id": 1,
+                "name": "Semi Private Berdua" 
+              },
+              {
+                "id": 1,
+                "name": "Semi Private Berdua (3-5)" 
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+
